@@ -20,7 +20,7 @@
         }
         Son.prototype = new Father();
         console.log(Son.prototype.constructor);
-        Son.prototype.constructor = Son
+        Son.prototype.constructor = Son;
 
         Son.prototype.exam = function() {
             console.log('孩子要考试');
